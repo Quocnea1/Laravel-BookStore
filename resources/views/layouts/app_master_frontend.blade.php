@@ -18,7 +18,7 @@
         @endif
         <style>
             .commonTop #headers{
-                background-image: linear-gradient(0, #0a4560, #2196f3) !important;
+                background-image: linear-gradient(0, #ee9ca7, #ffdde1) !important;
             }
             .top-header .content a:hover {
                 opacity: 0.7;

@@ -3,11 +3,11 @@
 return [
 	'component' => [
 		'header-top' => [
-			'background' => '#03a9f4 !important',
+			'background' => 'linear-gradient(180, #f12711, #ffdde1) !important',
 			''
 		],
 		'menu' => [
-			'background' => '#2196f3 !important'
+			'background' => '#053412 !important'
 		],
 		'cate' => [
 			'home' => [
