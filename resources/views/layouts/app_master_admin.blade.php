@@ -185,7 +185,7 @@
         <!-- /.content-wrapper -->
         <footer class="main-footer">
 
-            <strong>Tiểu luận chuyên ngành - BookStore</strong>
+            <strong>Đồ Án Tốt Nghiệp Đại Học Sư Phạm Kỹ Thuật TP.HCM - BookStore</strong>
         </footer>
         <div class="control-sidebar-bg"></div>
     </div>

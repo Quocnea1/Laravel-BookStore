@@ -74,10 +74,11 @@ return [
     ],
 	[
 		'name' => 'Đối tác',
-		'list-check' => ['user','ncc'],
+		'list-check' => ['user','ncc','contact'],
 		'icon' => 'fa fa-user',
 		'level'  => [1,2],
 		'sub'  => [
+
 			[
 				'name'  => 'Khách hàng',
 				'route' => 'admin.user.index',
@@ -88,17 +89,18 @@ return [
 			[
 				'name'  => 'Nhà cung cấp',
 				'route' => 'admin.ncc.index',
-				'namespace' => 'user',
+				'namespace' => 'ncc',
 				'icon'  => 'fa fa-users',
 				'level'  => [1,2],
 			],
             [
-               'name'  => 'Liên hệ',
-               'namespace' => 'contact',
-               'route' => 'admin.contact',
-               'icon'  => 'fa fa-star',
-               'level'  => [1,2],
-           ],
+                'name'  => 'Liên hệ',
+                'namespace' => 'contact',
+                'route' => 'admin.contact',
+                'icon'  => 'fa fa-star',
+                'level'  => [1,2],
+            ],
+         
 		]
 	],
 //    [
@@ -149,19 +151,19 @@ return [
 		'level'  => [1,2],
         'sub'  => [
             [
-                'name'  => 'Nhập kho',
-                'namespace' => 'import',
+                'name'  => 'Kiểm Nhập Kho',
+                'namespace' => 'inventory',
                 'route' => 'admin.inventory.warehousing',
                 'icon'  => 'fa-opencart',
 				'level'  => [1,2],
             ],
-			[
-				'name'  => 'Xuất kho',
-				'namespace' => 'export',
-				'route' => 'admin.export.out_of_stock',
-				'icon'  => 'fa-opencart',
-				'level'  => [1,2],
-			],
+			// [
+			// 	'name'  => 'Xuất kho',
+			// 	'namespace' => 'export',
+			// 	'route' => 'admin.export.out_of_stock',
+			// 	'icon'  => 'fa-opencart',
+			// 	'level'  => [1,2],
+			// ],
         ]
     ],
 //    [

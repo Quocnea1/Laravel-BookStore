@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Facades\Route;
+
     Route::group(['prefix' => 'laravel-filemanager','middleware' => 'check_admin_login'], function () {
         \UniSharp\LaravelFilemanager\Lfm::routes();
     });

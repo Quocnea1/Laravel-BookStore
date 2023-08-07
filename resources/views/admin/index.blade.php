@@ -13,6 +13,9 @@
         <div class="box">
             <div class="box-header with-border">
                 <h3 class="box-title">Thông tin sinh viên</h3>
+                <h2>Nguyễn Phú Quốc MSSV: 19119124</h2>
+                <img href=''>
+                
                 <div class="box-tools pull-right">
                     <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
                     title="Collapse">
