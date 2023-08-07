@@ -2,6 +2,6 @@
 + Đăng nhập admin
     /admin-auth/login
 
-    admin: tieuluanchuyennganh@gmail.com mk:123456789
+    admin: admin@gmail.com mk:123456789
 
 

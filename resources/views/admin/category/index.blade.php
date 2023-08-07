@@ -26,7 +26,6 @@
                                     <th>Name</th>
                                     <th>Avatar</th>
                                     <th>Status</th>
-                                    <th>Hot</th>
                                     <th>Time</th>
                                     <th>Action</th>
                                 </tr>
