@@ -1,6 +1,6 @@
 @extends('layouts.app_master_frontend')
 @section('css')
-    <link rel="stylesheet" href="{{ asset('css/static.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/static.css') }}">
 @stop
 @section('content')
     <div class="container">

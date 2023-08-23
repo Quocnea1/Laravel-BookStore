@@ -1,6 +1,6 @@
 @extends('layouts.app_master_user_v2')
 @section('css')
-    <link rel="stylesheet" href="{{ asset('css/cart.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/cart.css') }}">
 @stop
 @section('content')
 

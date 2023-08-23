@@ -1,7 +1,7 @@
 @extends('layouts.app_master_frontend')
 @section('css')
     <style>
-		<?php $style = file_get_contents('css/ratings_insights.min.css');echo $style;?>
+		<?php $style = file_get_contents('css/ratings_insights.css');echo $style;?>
     </style>
 @stop
 @section('content')
@@ -29,7 +29,7 @@
 @stop
 @section('script')
     <script>
-		var CSS = "{{ asset('css/ratings.min.css') }}";
+		var CSS = "{{ asset('css/ratings.css') }}";
     </script>
     <script src="{{ asset('js/product_detail.js') }}" type="text/javascript"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

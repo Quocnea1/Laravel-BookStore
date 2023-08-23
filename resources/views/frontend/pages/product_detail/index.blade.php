@@ -1,7 +1,7 @@
 @extends('layouts.app_master_frontend')
 @section('css')
     <style>
-        <?php $style = file_get_contents('css/product_detail_insights.min.css');echo $style;?>
+        <?php $style = file_get_contents('css/product_detail_insights.css');echo $style;?>
     </style>
 @stop
 @section('content')
@@ -169,7 +169,7 @@
 @section('script')
     <script>
 		var ROUTE_COMMENT = '{{ route('ajax_post.comment') }}';
-		var CSS = "{{ asset('css/product_detail.min.css') }}";
+		var CSS = "{{ asset('css/product_detail.css') }}";
 		var URL_CAPTCHA = '{{ route('ajax_post.captcha.resume') }}'
     </script>
     <script src="{{ asset('js/product_detail.js') }}" type="text/javascript"></script>

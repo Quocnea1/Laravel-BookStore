@@ -1,7 +1,7 @@
 @extends('layouts.app_master_frontend')
 @section('css')
     <style>
-		<?php $style = file_get_contents('css/product_insights.min.css');echo $style;?>
+		<?php $style = file_get_contents('css/product_insights.css');echo $style;?>
         .filter-tab .active a {
             color: red;
         }
@@ -34,7 +34,7 @@
                 </div>
                 {{-- {{  dd($products) }} --}}
                 <div class="order-tab">
-                    <span class="total-prod">Tổng số: {{ $products->total() }} sản phẩm Tính năng</span>
+                    <span class="total-prod">Tổng số: {{ $products->total() }} Sản Phẩm</span>
                     <div class="sort">
                         <div class="item">
                             <span class="title js-show-sort">Sắp xếp <i class="fa fa-caret-down"></i></span>
@@ -59,7 +59,7 @@
 @stop
 @section('script')
     <script>
-		var CSS = "{{ asset('css/product_search.min.css') }}";
+		var CSS = "{{ asset('css/product_search.css') }}";
     </script>
     <script type="text/javascript">
 		<?php $js = file_get_contents('js/product_search.js');echo $js;?>

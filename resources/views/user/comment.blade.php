@@ -1,7 +1,7 @@
 @extends('layouts.app_master_user')
 @section('css')
     <style>
-        <?php $style = file_get_contents('css/user.min.css');echo $style;?>
+        <?php $style = file_get_contents('css/user.css');echo $style;?>
     </style>
 @stop
 @section('content')

@@ -5,7 +5,7 @@
         $display_menu = config('layouts.component.cate.home.display');
 //    @endphp
     <style>
-        <?php $style = file_get_contents('css/home_insights.min.css');echo $style;?>
+        <?php $style = file_get_contents('css/home_insights.css');echo $style;?>
         #menu-main {
             display: '{{ $display_menu }}';
         }
@@ -141,7 +141,7 @@
         var routeRenderProductRecently  = '{{ route('ajax_get.product_recently') }}';
         var routeRenderProductByCategory  = '{{ route('ajax_get.product_by_category') }}';
         var routeRenderSlide  = '{{ route('ajax_get.slide') }}';
-        var CSS = "{{ asset('css/home.min.css') }}";
+        var CSS = "{{ asset('css/home.css') }}";
 		<?php $js = file_get_contents('js/home.js');echo $js;?>
     </script>
 @stop

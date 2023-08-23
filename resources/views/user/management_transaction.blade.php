@@ -1,6 +1,6 @@
 @extends('layouts.app_master_user')
 @section('css')
-    <link rel="stylesheet" href="{{ asset('css/user.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/user.css') }}">
     <style>
 
 

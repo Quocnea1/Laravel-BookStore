@@ -1,6 +1,6 @@
 @extends('layouts.app_master_frontend')
 @section('css')
-    <link rel="stylesheet" href="{{ asset('css/blog.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/blog.css') }}">
      <style type="text/css">
         .pagination {
             margin: 10px auto;

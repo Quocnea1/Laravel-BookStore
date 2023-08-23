@@ -17,8 +17,16 @@
             </script>
         @endif
         <style>
+            .body {
+                background: #f5f5f555 !important;
+                color: #252525;
+                font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.5;
+            }
             .commonTop #headers{
-                background-image: linear-gradient(0, #ee9ca7, #ffdde1) !important;
+                background-image: linear-gradient(0, #ee9ca544, #ffdde133) !important;
             }
             .top-header .content a:hover {
                 opacity: 0.7;

@@ -1,6 +1,6 @@
 @extends('layouts.app_master_frontend')
 @section('css')
-    <link rel="stylesheet" href="{{ asset('css/cart.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/cart.css') }}">
 @stop
 @section('content')
     <div class="container cart">

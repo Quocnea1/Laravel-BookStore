@@ -77,7 +77,7 @@
                         @foreach(config('user') as $item)
                             <li>
                                 <a href="{{ route($item['route']) }}" class="{{ \Request::route()->getName() == $item['route'] ? 'active' : '' }}">
-                                    <i class="{{ $item['icon'] }}"></i>
+                                    <i></i>
                                     <span>{{ $item['name'] }}</span>
                                 </a>
                             </li>

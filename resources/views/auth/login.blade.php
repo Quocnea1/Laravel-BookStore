@@ -1,7 +1,7 @@
 @extends('layouts.app_master_frontend')
 @section('css')
 <style>
-    <?php $style =file_get_contents('css/auth.min.css');
+    <?php $style =file_get_contents('css/auth.css');
     echo $style;
     ?>
 </style>
